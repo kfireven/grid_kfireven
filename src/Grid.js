@@ -13,7 +13,7 @@ const Grid = ({ config, data }) => (
       {data.map((movie, index) => {
         const trailer = config[3].component;
         return (
-          <tr key={movie[config[1].field] + index}>
+          <tr key={movie[config[0].field] + index}>
             <td>{movie[config[0].field]}</td>
             <td>{movie[config[1].field]}</td>
             <td>{movie[config[2].field]}</td>
