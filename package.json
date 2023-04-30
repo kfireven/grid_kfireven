@@ -1,5 +1,6 @@
 {
   "name": "interview",
+  "homepage": "https://kfireven.github.io/grid_kfireven/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "set BUILD_PATH=./docs&& react-scripts build"
   },
   "browserslist": {
     "production": [
